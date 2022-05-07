@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Contact us</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contactAndPrices.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script type="module" src="./js/map.js"></script>
+</head>
+
+<body id="contact">
+<header>
+    <nav>
+        <figure>
+            <img src="images/logo.png" alt="logo"/>
+        </figure>
+        <span class="logo">web design</span>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="prices.html">Prices</a></li>
+            <li><a class="active" href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="header-image"></div>
+    <h1>Contact</h1>
+</header>
+<main class="container">
+    <section>
+        <section class="first-item">
+            <h1>Contact us</h1>
+            <p>We will be delighted to assist you in our offices. You can also contact us by phone or through the
+                contact form on the page. We will reply to you as soon as possible.</p>
+
+            <div id="map"></div>
+
+            <h3>Our address</h3>
+            <address>
+                Address: Av. de la Reina Victoria, 19
+                28003 Madrid
+
+                Phone: +34 767 536 222
+            </address>
+        </section>
+        <section class="second-item">
+            <h1>Send a Direct Message</h1>
+
+            [Form]
+            [Form]
+            <form>
+                <h3>Personal information</h3>
+                <label for="firstname">Your Name:</label>
+                <input type="text" name="firstname" id="firstname">
+                <label for="surname">Your Surname:</label>
+                <input type="text" name="surname" id="surname">
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" id="phone">
+                <fieldset>
+                    <legend>Sex:</legend>
+                    <label for="woman">Woman</label>
+                    <input type="radio" name="woman" id="woman">
+                    <label for="man">Man</label>
+                    <input type="radio" name="man" id="man">
+                </fieldset>
+                <label for="town">Town:</label><input type="text" name="town" id="town">
+                <label for="country">Country:</label><input type="text" name="country" id="country">
+                <label for="email">Email Address:</label><input type="email" name="email" id="email">
+
+
+                <label>What does it mean to us?</label>
+
+                <fieldset>
+                    <legend>Subject:</legend>
+                    <label for="quote">Request a quote</label>
+                    <input type="radio" name="quote" id="quote">
+                    <label for="meeting-design">Request a meeting with the design area</label>
+                    <input type="radio" name="meeting-design" id="meeting-design">
+                    <label for="meeting-marketing">Request a meeting with the marketing area</label>
+                    <input type="radio" name="meeting-marketing" id="meeting-marketing">
+                    <label for="meeting-development">Request a meeting with the development area</label>
+                    <input type="radio" name="meeting-development" id="meeting-development">
+                    <label for="questions">Another questions</label>
+                    <input type="radio" name="questions" id="questions">
+                </fieldset>
+                <label for="message">Your message:</label>
+                <textarea name="message" id="message"></textarea>
+
+                <input type="checkbox" name="policy" id="policy">
+                <label for="policy">I have read and accept the terms and conditions of use.</label>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+        </section>
+    </section>
+    <section>
+        <section class="third-item">
+            <h1>Recent Posts</h1>
+            <section>
+                <h1>Recent Posts</h1>
+
+                <p>Design contest winners 2022</p>
+                <time datetime="2022-02-12">12 February 2022</time>
+
+                <p>How to create a website that has thousands of visits</p>
+                <time datetime="2022-02-10">10 February 2022</time>
+
+                <p>One-page layouts vs conventional layouts.</p>
+                <time datetime="2022-02-08">8 February 2022</time>
+            </section>
+        </section>
+        <section class="fourth-item">
+            <h1>Our social media</h1>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-rss"></i>
+        </section>
+        <section class="fifth-item">
+            <h1>Special offer</h1>
+            <p>We have a special offer for you if this is your first time working with us. Consult us, surely you
+                will
+                be interested.</p>
+        </section>
+    </section>
+
+</main>
+
+<footer>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="prices.html">Prices</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <p>Name Lastname | web design | Practice UOC 2022</p>
+</footer>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkF3cR4davtIuydbSIqF3jRheC0YJjxyw&callback=initMap&v=weekly"
+        defer>
+</script>
+</body>
+
+</html>

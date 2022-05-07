@@ -1,0 +1,33 @@
+
+:root {
+    /* index.html */
+    --recent-posts: #a1c905;
+    --recent-posts-hover: #ffffff;
+    --our-customer-bg: #f1f4f5;
+    --our-customer-blocks: #EDEDED;
+    --title-size: 36px;
+}
+
+header .header-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-size: cover;
+    background-image: url("../images/cabecera_inicio.jpg");
+    background-position: 0 30%;
+    filter: brightness(0.4) saturate(1.5);
+}
+
+header h1 {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+header p {
+    position: absolute;
+    top: 32%;
+    left: 25%;
+}

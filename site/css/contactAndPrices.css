@@ -1,0 +1,22 @@
+
+main {
+    display: flex;
+    gap: 15px;
+}
+
+header .header-image {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    height: 250px;
+    background-image: url("../images/cabecera_interna.jpg");
+    background-position: 100% 0;
+    filter: brightness(0.4) saturate(1.5);
+    position: relative;
+}
+
+header h1 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}

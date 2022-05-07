@@ -1,0 +1,13 @@
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+:root {
+    --send-form-button: #698303;
+    --send-button-hover: #aaaaaa;
+    --form-elements: #f1f4f5;
+    --border: #647d03;
+    --element-focus: #698303;
+}
