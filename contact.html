@@ -17,7 +17,7 @@
 
 <body id="contact">
 <header>
-    <nav class="container">
+    <nav>
         <figure>
             <img src="images/logo.png" alt="logo"/>
         </figure>
@@ -33,7 +33,7 @@
     <div class="header-image"></div>
     <h1>Contact</h1>
 </header>
-<main class="container">
+<main>
     <section>
         <section>
             <h1>Contact us</h1>
@@ -42,7 +42,7 @@
 
             <div id="map"></div>
 
-            <h3>Our address</h3>
+            <h2>Our address</h2>
             <address>
                 Address: Av. de la Reina Victoria, 19
                 28003 Madrid
@@ -52,50 +52,68 @@
         </section>
         <section>
             <h1>Send a Direct Message</h1>
-            <form>
-                <h3>Personal information</h3>
-                <label for="firstname">Your Name:</label>
-                <input type="text" name="firstname" id="firstname">
-                <label for="surname">Your Surname:</label>
-                <input type="text" name="surname" id="surname">
-                <label for="phone">Phone:</label>
-                <input type="tel" name="phone" id="phone">
-                <fieldset>
-                    <legend>Sex:</legend>
-                    <label for="woman">Woman</label>
-                    <input type="radio" name="woman" id="woman">
-                    <label for="man">Man</label>
-                    <input type="radio" name="man" id="man">
-                </fieldset>
-                <label for="town">Town:</label><input type="text" name="town" id="town">
-                <label for="country">Country:</label><input type="text" name="country" id="country">
-                <label for="email">Email Address:</label><input type="email" name="email" id="email">
+            <form id="contact-form">
+                <section>
+                    <h1>Personal information</h1>
+                    <p>
+                        <label for="firstname">Your Name:<strong><abbr title="required">*</abbr></strong></label>
+                        <input type="text" name="firstname" id="firstname">
+                    </p>
+                    <p>
+                        <label for="surname">Your Surname:<strong><abbr title="required">*</abbr></strong></label>
+                        <input type="text" name="surname" id="surname">
+                    </p>
+                    <p>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" name="phone" id="phone">
+                    </p>
+                    <fieldset>
+                        <legend>Sex:</legend>
+                        <input type="radio" name="woman" id="woman">
+                        <label for="woman">Woman</label>
+                        <input type="radio" name="man" id="man">
+                        <label for="man">Man</label>
+                    </fieldset>
+                    <p>
+                        <label for="town">Town:</label>
+                        <input type="text" name="town" id="town">
+                    </p>
+                    <p>
+                        <label for="country">Country:</label>
+                        <input type="text" name="country" id="country">
+                    </p>
+                    <p>
+                        <label title="required" for="email">Email Address:<strong><abbr
+                                title="required">*</abbr></strong></label>
+                        <input name="email" id="email">
+                    </p>
+                </section>
 
 
-                <label>What does it mean to us?</label>
+                <section>
+                    <h1>What does it mean to us?</h1>
+                    <p>
+                        <label for="subject">Subject:</label>
+                        <select id="subject" name="subject">
+                            <option value="1">Request a quote</option>
+                            <option value="2">Request a meeting with the design area</option>
+                            <option value="3">Request a meeting with the marketing area</option>
+                            <option value="4">Request a meeting with the development area</option>
+                            <option value="5">Another questions</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="message">Your message:</label>
+                        <textarea name="message" id="message"></textarea>
+                    </p>
+                </section>
 
-                <fieldset>
-                    <legend>Subject:</legend>
-                    <label for="quote">Request a quote</label>
-                    <input type="radio" name="quote" id="quote">
-                    <label for="meeting-design">Request a meeting with the design area</label>
-                    <input type="radio" name="meeting-design" id="meeting-design">
-                    <label for="meeting-marketing">Request a meeting with the marketing area</label>
-                    <input type="radio" name="meeting-marketing" id="meeting-marketing">
-                    <label for="meeting-development">Request a meeting with the development area</label>
-                    <input type="radio" name="meeting-development" id="meeting-development">
-                    <label for="questions">Another questions</label>
-                    <input type="radio" name="questions" id="questions">
-                </fieldset>
-                <label for="message">Your message:</label>
-                <textarea name="message" id="message"></textarea>
-
-                <input type="checkbox" name="policy" id="policy">
-                <label for="policy">I have read and accept the terms and conditions of use.</label>
-
+                <p>
+                    <input type="checkbox" name="policy" id="policy">
+                    <label for="policy">I have read and accept the terms and conditions of use.</label>
+                </p>
                 <button type="submit">Send Message</button>
             </form>
-
         </section>
     </section>
     <aside>

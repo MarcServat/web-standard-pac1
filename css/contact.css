@@ -11,3 +11,29 @@
     --border: #647d03;
     --element-focus: #698303;
 }
+
+#contact-form input:not([type=radio]):not([type=checkbox]),
+#contact-form select,
+#contact-form textarea {
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid var(--border);
+    background-color: var(--form-elements);
+}
+
+#contact-form input:focus {
+    color: var(--send-button-hover);
+}
+
+#contact-form button {
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 0.7em;
+    background-color: var(--send-form-button);
+}
+
+#contact-form button:hover {
+    background-color: var(--send-button-hover);
+}
