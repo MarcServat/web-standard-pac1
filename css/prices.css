@@ -5,12 +5,14 @@
     --green-side-table-2: #a1c905;
     --gray-table-alternate-backgrounds: #f2f2f2;
 
-    --title-size-prices-: 2.5em;
-    --title-size-header: 2.2em;
+    --title-size-prices: 2.5em;
+    --prices-size-header: 2.2em;
     --title-size-table: 2em;
 }
 
+
 .tg {
+    width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
 }
@@ -77,4 +79,22 @@
     text-align: center;
     border-color: inherit;
     vertical-align: top
+}
+
+header h1 {
+    font-size: var(--title-size-prices);
+}
+
+.service-prices h1 {
+    font-size: var(--prices-size-header);
+}
+
+.service-prices p {
+    color: var(--text);
+}
+
+.service-catalog h1 {
+    font-size: var(--title-size-table);
+    text-align: center;
+    font-style: italic;
 }

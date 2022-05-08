@@ -4,6 +4,10 @@
     grid-template-columns: repeat(12, 1fr);
 }
 
+section {
+    padding: 10px;
+}
+
 header {
     grid-column: 1 / 13;
 }

@@ -14,7 +14,9 @@
 
 #contact-form input:not([type=radio]):not([type=checkbox]),
 #contact-form select,
-#contact-form textarea {
+#contact-form textarea,
+#contact-form fieldset {
+    padding: 10px;
     display: block;
     width: 100%;
     border-radius: 2px;
@@ -36,4 +38,12 @@
 
 #contact-form button:hover {
     background-color: var(--send-button-hover);
+}
+
+.contact-us p {
+    color: var(--text);
+}
+
+address {
+    color: var(--text);
 }
