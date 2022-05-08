@@ -54,7 +54,23 @@ header p {
 /* Our customers */
 
 .our-staff {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
+.our-staff h1 {
+    place-self: center;
+    grid-column-start: 2;
+}
+
+.our-staff section {
+    /*grid-column-start: 2;*/
+}
+
+.our-staff p {
+    place-self: center;
+    grid-column: 1 / 4;
+    color: var(--text);
 }
 
 /* Our customers */
