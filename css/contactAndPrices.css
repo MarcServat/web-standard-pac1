@@ -2,6 +2,7 @@
 main {
     display: flex;
     gap: 15px;
+    padding-bottom: 50px;
 }
 
 header .header-image {
@@ -19,4 +20,91 @@ header h1 {
     position: absolute;
     top: 30%;
     left: 30%;
+}
+
+/* aside */
+
+aside {
+    padding: 1em;
+    flex: 0 0 20em;
+}
+
+aside hr {
+    margin: 20px 0 20px 0;
+}
+
+aside section {
+    margin-bottom: 10px;
+}
+
+aside .post {
+    display: grid;
+    gap: .5em;
+    grid-template-columns: 150px 1fr;
+}
+
+aside .post img {
+    grid-row: 1 / 3;
+    align-self: center;
+    justify-self: center;
+}
+
+aside .post a {
+    text-decoration: none;
+    color: var(--lighter-green);
+}
+
+aside .post a:hover {
+    color: var(--recent-posts-hover);
+}
+
+aside .social-media a {
+    display: inline-flex;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+aside i:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+aside .facebook {
+    color: white;
+    background-color: var(--facebook);
+}
+
+aside .twitter {
+    color: white;
+    background-color: var(--twitter);
+}
+
+aside .linkedin {
+    color: white;
+    background-color: var(--linkedin);
+}
+
+aside .youtube {
+    color: white;
+    background-color: var(--youtube);
+}
+
+aside .instagram {
+    color: white;
+    background-color: var(--instagram);
+}
+
+aside .rss {
+    color: white;
+    background-color: var(--rss);
+}
+
+aside .special-offer {
+    padding: 1em;
+    border: 1px dashed var(--middle-green);
+}
+
+aside .special-offer h1 {
+    margin: 0;
 }

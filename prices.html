@@ -16,7 +16,7 @@
 
 <body id="prices">
 <header>
-    <nav>
+    <nav class="container">
         <figure>
             <img src="images/logo.png" loading="lazy" alt="logo"/>
         </figure>
@@ -33,16 +33,15 @@
     <h1>Prices</h1>
 </header>
 <main class="container">
-    <section>
+    <div>
         <section>
-            <h1>Prices</h1>
-
-            <p>Some prices of our services</p>
+            <h1>Some prices of our services</h1>
             <p>The following services and prices are indicative for reference purposes, but we do many more
                 things.</p>
 
             <p>We offer fully customizable packages, don't hesitate to contact us.</p>
-
+        </section>
+        <section>
             <h1>Catalog of some of our services</h1>
             <table class="tg">
                 <colgroup>
@@ -112,36 +111,49 @@
                 </tbody>
             </table>
         </section>
-    </section>
-    <section>
+    </div>
+    <aside>
         <section>
             <h1>Recent Posts</h1>
 
-            <p>Design contest winners 2022</p>
-            <time datetime="2022-02-12">12 February 2022</time>
+            <div class="post">
+                <img src="./images/blog1.jpg" alt="Design content blog" width="100">
+                <a href="#">Design contest winners 2022</a>
+                <time datetime="2022-02-12">12 February 2022</time>
+            </div>
 
-            <p>How to create a website that has thousands of visits</p>
-            <time datetime="2022-02-10">10 February 2022</time>
+            <hr>
 
-            <p>One-page layouts vs conventional layouts.</p>
-            <time datetime="2022-02-08">8 February 2022</time>
+            <div class="post">
+                <img src="./images/blog2.jpg" alt="How to create a website" width="100">
+                <a href="#">How to create a website that has thousands of visits</a>
+                <time datetime="2022-02-10">10 February 2022</time>
+            </div>
+
+            <hr>
+
+            <div class="post">
+                <img src="./images/blog3.jpg" alt="Layouts comparison" width="100">
+                <a href="#">One-page layouts vs conventional layouts.</a>
+                <time datetime="2022-02-08">8 February 2022</time>
+            </div>
         </section>
-        <section>
+        <section class="social-media">
             <h1>Our social media</h1>
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-linkedin"></i>
-            <i class="fa fa-youtube"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-rss"></i>
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+            <a href="#" class="rss"><i class="fa fa-rss"></i></a>
         </section>
-        <section>
+        <section class="special-offer">
             <h1>Special offer</h1>
             <p>We have a special offer for you if this is your first time working with us. Consult us, surely you
                 will
                 be interested.</p>
         </section>
-    </section>
+    </aside>
 </main>
 <footer>
     <ul>
