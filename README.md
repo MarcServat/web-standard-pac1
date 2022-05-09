@@ -6,4 +6,4 @@ The activity was focused on using semantic html and the correct CSS selectors.
 
 # Deploy
 
-The file are deployed using (railway)[https://railway.app/] serving static files using a pre-config nginx docker image. 
+The file are deployed using [railway](https://railway.app/) serving static files using a pre-config nginx docker image. 
