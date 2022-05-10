@@ -11,8 +11,7 @@ This file contains the common styles for the web site
     --footer-link-hover: #ffffff; /* underline */
 
     /* contact.html and prices.html */
-    --link: #647d03;
-    --link-hover: #000000; /* underline */
+    --link-hover: #000000 ; /* underline */
     --facebook: #3B5998;
     --twitter: #55ACEE;
     --youtube: #bb0000;
@@ -75,33 +74,14 @@ body {
     margin-left: 1em;
 }
 
-header h1 {
+.header-image-wrapper h1 {
     font-family: Orbitron, sans-serif;
     color: white;
 }
 
-header p, .logo {
+.header-image-wrapper p, .logo {
     font-family: Orbitron, sans-serif;
     color: var(--dark-green-lite);
-}
-
-.header-image {
-    margin-top: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 250px;
-    background-size: cover;
-    background-position: 0 30%;
-    filter: brightness(0.4) saturate(1.5);
-}
-
-
-.container {
-    max-width: 90%;
-    width: 1140px; /* fixed */
-    margin: 0em auto;
 }
 
 /* Nav */

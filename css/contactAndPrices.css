@@ -12,6 +12,10 @@ header {
     grid-column: 1 / 13;
 }
 
+.header-image-wrapper {
+    grid-column: 1 / 13;
+}
+
 main {
     grid-column: 3 / 11;
 }
@@ -27,15 +31,31 @@ main {
     padding-bottom: 50px;
 }
 
-header .header-image {
-    background-image: url("../images/cabecera_interna.jpg");
-    background-position: 100% 0;
+.header-image-wrapper {
+    height: 280px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-header h1 {
+.header-image-wrapper .header-image:before {
+    top: 0;
+    left: 0;
     position: absolute;
-    top: 15%;
-    left: 18%;
+    content: "";
+    width: 100%;
+    height: 280px;
+    background-size: cover;
+    background-image: url("../images/cabecera_interna.jpg");
+    background-position: 0 30%;
+    filter: brightness(0.4) saturate(1.5);
+}
+
+.header-title {
+    position: relative;
+    top: 30px;
+    left: 193px;
 }
 
 /* aside */
