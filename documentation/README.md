@@ -12,14 +12,26 @@ The following images shows how to the planification was done to structure the we
 ### HTML
 The body default styles are reset, so it is easier to lay out our website and other generic properties, like font-size are applied.
 The headers are composed by a navbar, divided in two parts: a link with the logo and the company name and, the menu which is an unordered list of links.
+For the images that covers the whole width and have text on them, an extra layer it has been added, so the text could be overlapped without the filters applied to the image.
+The icons from font-awesome are loaded locally, to reduce the number of http request and increase performance.
+### Index
+For the "meet our staff" section, the layout has been styled with flex. In column direction for the overall section, all the staff members in a row and each of the  members in a column.
+This way it is easier to add a new member into a row or more elements into each of the staff columns.
+For the "our customer say" section occupies the whole width as the background is colored. Something to point out is the use of the ":before" and ":after" selectors to modify the default styles from the "q" tag
+
+### Prices
+The table is done with a html generator but styled by hand.
 
 
-### CSS
+### Contact 
+For the map, an integration with google developer has been done to increase the UX experience, although the alert cannot be removed until the billing is enabled.
+For the form, ids and html tags are used to target elements and apply styles, as one form as much, per page is expected.
+
 
 
 
 ## Deploy
-Besides the FTP provided by UOC, the project is deployed in [rail way](https://railway.app/) and hosted in [GitHub](https://github.com/MarcServat/web-standard-pac1).
+Besides, the FTP provided by the UOC, the project is deployed in [rail way](https://railway.app/) and hosted in [GitHub](https://github.com/MarcServat/web-standard-pac1).
 
 URL: https://nginx-production-efec.up.railway.app/
 repo: https://github.com/MarcServat/web-standard-pac1

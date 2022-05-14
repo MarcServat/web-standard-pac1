@@ -17,8 +17,9 @@
 #contact-form textarea,
 #contact-form fieldset {
     padding: 10px;
+    margin-left: 2%;
     display: block;
-    width: 100%;
+    width: 97%;
     border-radius: 2px;
     border: 1px solid var(--border);
     background-color: var(--form-elements);
