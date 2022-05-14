@@ -40,5 +40,6 @@ For the form, ids and html tags are used to target elements and apply styles, as
 ## Deploy
 Besides, the FTP provided by the UOC, the project is deployed in [rail way](https://railway.app/) and hosted in [GitHub](https://github.com/MarcServat/web-standard-pac1).
 
-URL: https://nginx-production-efec.up.railway.app/
+Rail way URL: https://nginx-production-efec.up.railway.app/
+UOC FTP: https://protected-content.ftp.uoc.edu/20212_22.611_web/aula1/mservatl%40uoc.edu/index.html
 repo: https://github.com/MarcServat/web-standard-pac1
