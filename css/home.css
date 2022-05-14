@@ -33,7 +33,7 @@ footer {
     grid-column: 1 / 13;
 }
 
-section.header-image-wrapper {
+div.header-image-wrapper {
     grid-column: 1 / 13;
     height: 280px;
     position: relative;
@@ -61,7 +61,7 @@ section.header-image-wrapper {
     padding: 1.5em 0;
 }
 
-.our-staff h1 {
+.our-staff h2 {
     place-self: center;
     grid-column: 1 / 6;
 }
@@ -99,7 +99,7 @@ section.header-image-wrapper {
     background-color: var(--our-customer-bg);
 }
 
-.our-customers h1 {
+.our-customers h2 {
     font-size: 18px;
 }
 

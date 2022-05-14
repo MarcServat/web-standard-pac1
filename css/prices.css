@@ -85,7 +85,7 @@ header h1 {
     font-size: var(--title-size-prices);
 }
 
-.service-prices h1 {
+.service-prices h2 {
     font-size: var(--prices-size-header);
 }
 
@@ -93,7 +93,7 @@ header h1 {
     color: var(--text);
 }
 
-.service-catalog h1 {
+.service-catalog h2 {
     font-size: var(--title-size-table);
     text-align: center;
     font-style: italic;
