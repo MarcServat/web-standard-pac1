@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+#todaysPicks {
+    flex: 4;
+}
+#mostRecent{
+    flex: 1;
+}
+.innerContainer{
+    display: flex;
+    flex-direction: row;
+}
+.leftBox{
+    flex: 1;
+}
+.mainBox{
+    flex: 3;
+}
+
+.mainBox img {
+    width: 100%;
+}
+
+.mainBox .topLine {
+    text-transform: uppercase;
+}
+
+.mainBox h2{
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.mainBox p.author{
+    text-transform: uppercase;
+}

@@ -1,0 +1,82 @@
+
+body {
+    margin: 0;
+    font-size: 1rem;
+}
+
+#container {
+    overflow-x: hidden;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+/* header */
+
+.sub-header {
+    width: 100%;
+    grid-column: 1 / 4;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    grid-column: 2 / 3;
+}
+
+nav {
+    font-size: .7rem;
+    grid-column: 2 / 3;
+}
+
+menu {
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+menu li:after {
+    content: "|";
+    margin: 0 5px;
+}
+
+menu li:last-child:after {
+    content: "";
+}
+
+menu:last-child {
+    content: "";
+}
+
+.subscribe {
+    padding: 1rem;
+    background-color: #55ACEE;
+}
+
+.subscribe button {
+    width: 100px;
+}
+
+.title-header, .subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* main content */
+main {
+    margin-top: 20px;
+    grid-column: 2 / 3;
+    display: flex;
+}
+
+main section {
+    padding: 1rem;
+}

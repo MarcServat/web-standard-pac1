@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.right-menu {
+    flex-basis: 1em;
+}
+
+menu a {
+    color: unset;
+    text-decoration: none;
+}
+
+menu {
+    list-style: none;
+    display: flex;
+}
+
+menu li {
+    text-transform: uppercase;
+}
+
+menu li:after {
+    margin-left: 10px;
+    margin-right: 10px;
+    content: "|";
+}
+
+menu li:last-child:after {
+    content: "";
+}
+
+.content {
+    display: flex;
+}
+
+main article {
+    padding: 1em;
+}
+
+aside article img {
+    float: right;
+    margin: 5px;
+}
